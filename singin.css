@@ -7,17 +7,19 @@
 .login-logo,h2{
   color: black;
   margin: 5;
-  display: center;
+  width: 2150px;
+  height: 60px;
   align-items: center;
-  display: flex;
+  display:flex;
   justify-content: center;
   text-align: center;
   border-radius: underline;
-  padding: 5px;
-  border: 0px solid yellow;
+  padding: 10px;
+  border: 0px solid rgb(68, 255, 0);
   opacity: .7;
-  background-color: khaki;
-  font-family:sans-serif
+  background-color: rgb(180, 183, 177);
+  font-family:sans-serif;
+  font-size: 25px;
 }
 
 
@@ -27,17 +29,17 @@
   justify-content: center;
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 40px;
   color: black;
   
   
 }
 .btn,button{
-  background-color: yellow;
-  border: 2px solid khaki;
+  background-color: rgb(238, 242, 232);
+  border: 2px solid rgb(0, 0, 0);
   padding: 5px;
   border-radius: 10px;
-  opacity: .4;
+  opacity: .6;
   margin: 5px;
   display: inline-flex;
   
@@ -48,21 +50,24 @@ text-decoration: none;
   align-items: center;
   display: flex;
   justify-content: center;
-  font-size: 15px;
+  font-size: 52px;
   font-family:sans-serif;
   align-content: center;
   animation-duration: 10s;
+  width: 210px;
+  height: 70px;
   
 }
 
 .header{
   width: 100%;
   height: 100vh;
-  background-color: beige;
+  background-color: rgb(126, 254, 28);
 }
 
 .header,body{
-  background: url(https://ead.htn.com.br/theme/custom_img/htn_mobile.gif);
-  justify-content: center;
-  display: inline-block;
+  background: url(https://ead.htn.com.br/pluginfile.php/1/theme_boost/loginbackgroundimage/1725621566/HTN%20-%20COMERCIAL%2030s%2016x9%20%28COLOR%20%2B%20SFX%20FINAL%29%201%20SMALL.gif);
+background-size: 2150px;
+
+
 }
