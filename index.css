@@ -99,8 +99,7 @@
 
 body{
   background: url(./img/bg\ 3.gif);
-  background-size:2000px;
-  
+  background-size: 60cm;
 }
 
 @keyframes anima {
