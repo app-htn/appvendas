@@ -44,7 +44,7 @@
     border-right: 4px solid #adff2f;
     border-left: 4px solid #adff2f;
     border-block-end: 4px solid #adff2f;
-    color: white;
+    color: black;
 }
 
 .btn{
@@ -76,7 +76,7 @@
  
 .text,a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: black;
     font-weight: 550;
     font-size: auto;
     cursor: pointer;
