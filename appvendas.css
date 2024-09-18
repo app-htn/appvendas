@@ -13,6 +13,7 @@
     border-top: 4px solid #adff2f;
     border-right: 4px solid #adff2f ;
     border-left: 4px solid #adff2f;
+    text-shadow: 0 0 22px;
 }
 .login-logo,img{
     margin: 5;
@@ -44,7 +45,8 @@
     border-right: 4px solid #adff2f;
     border-left: 4px solid #adff2f;
     border-block-end: 4px solid #adff2f;
-    color: black;
+    color: white;
+    text-shadow: 0 0 22px;
 }
 
 .btn{
@@ -68,18 +70,19 @@
     min-height: 10vh;  
     width: 8%;
     transition: all linear 200ms;
+    box-shadow: 0 0 22px;
 }
 .btn:hover{
     transform: scale(1.5);
     box-shadow: 0 0 22px rgba(0, 0, 0, 0.2);
 }
- 
 .text,a{
     text-decoration: none;
-    color: black;
-    font-weight: 550;
+    color: white;
+    font-weight: 999;
     font-size: auto;
     cursor: pointer;
+    text-shadow: 0 0 22px;
 }
 
 body{
