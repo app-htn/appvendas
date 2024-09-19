@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="relatorio.css">
+    <title>AppRelatorio</title>
+</head>
+<body>
+    <iframe title="App" 
+    width="100%" 
+    height="905.5px" 
+    src="https://app.powerbi.com/reportEmbed?reportId=c2feda40-de93-4944-b71b-328863e5c327&autoAuth=true&ctid=5de4e4ae-cdfb-4801-b601-107919d4f1f1"
+     frameborder="0" 
+     allowFullScreen="true">
+    </iframe>
+</body>
+</html>
