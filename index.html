@@ -1,105 +1,112 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="appvendas.css">
-</style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    <title>AppCodigo | Vendas</title>
-    <link rel="shortcut icon" href="https://ead.htn.com.br/pluginfile.php/4/core_admin/favicon/64x64/1726067394/logo_menor.ico">
+.tittl,h1{
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 60px;
+    backdrop-filter: blur(10px);
+    border-end-end-radius:30px;
+    border-end-start-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-block-end: 50px;
+    border-right: 4px solid #adff2f;
+    border-left: 4px solid #adff2f;
+    border-block-end: 4px solid #adff2f;
+    color: white;
+}
+
+.btn{
+    font-size: 30px;
+    background-color:  transparent;
+    backdrop-filter: blur(20px);
+    border: 3px solid greenyellow;
+    border-radius: 20px;
+    background-size: 500px;
+    align-items: center;
+    display: inline-flex;
+    justify-items: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 35px 78.8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 3vh;
+    margin-right: 5vh;
+    margin-top: 90px;
+    min-height: 10vh;  
+    width: 8%;
+    transition: all linear 200ms;
+}
+.btn:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.2);
+}
+ 
+.text,a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+    font-size: auto;
+    cursor: pointer;
+   
+}
+
+body{
+  background: url(./img/bg\ plano\ de\ fundo\ 1.png);
+  min-height: 100vh;  
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.body,h5{
+    font-family: sans-serif;
+    font-size: 30px;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    border-left: 4px solid #adff2f;
+    border-right: 4px solid #adff2f;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 4px solid #adff2f;
+    border-start-start-radius: 30px;
+    border-start-end-radius: 30px;
     
-     <img id="banner" class="img">
-     <a href="./bg1.jpg"></a>
-     <a href="./bg2.png"></a>
 
-</head>
-<body>
+   
     
-    <div id="loginlogo" class="login-logo">
-        <img id="logo" class="img" src="./img/logo 2.png">
-        </div>
-        <div id="titulo" class="title">
-            <h1 id="t1">Codigo de Vendas</h1>
-            <h2 id="t2"></h2>
-        </div>
-    </div>
- </body>
-
- <body>
-     <header>
-      <div class="botao">
-
-        <button class="btn">
-            <a href="./etiquetas/Camila.rpf">Camila</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Eduarda.rpf">Eduarda</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Elis.rpf">Elis</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Ester.rpf">Ester</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Jaciele.rpf">Jaciele</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Leonardo.rpf">Leonardo</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Nayriane.rpf">Nayriane</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Rhyan.rpf">Rhyan</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Samira.rpf">Samira</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Warley.rpf">Warley</a>
-        </button>
-
-        <button class="btn">
-            <a href="./relatorio.html" target="_black">Dados</a>
-        </button>
-
-        <button class="btn">
-            <a href="http://ua-appweb02/AppRetaguarda/?HTN=D05DC4AB#" target="_black">Etiqueta</a>
-        </button>
-
-        <button class="btn">
-            <a href="http://ua-appweb/AppProdutos/?TELA=%270%27&HTN=FD76F961" target="_black">Consulta</a>
-        </button>
-
-        <button class="btn">
-            <a href="http://ua-appweb02/AppLogisticaNew/?HTN=0C66CF57" target="_black">Logistica</a>
-        </button>
-
-        <button class="btn">
-            <a href="http://cac.htn.com.br" target="_black">CAC</a>
-        </button>
-
-        <button class="btn">
-            <a href="https://ead.htn.com.br" target="_black">EAD</a>
-        </button>
-          
-        <button class="btn">
-            <a href="relogio/index.html" target="_black">Relogio</a>
-        </button>
-
-    </div>
-</header>
-
-</body>
-</html>
+   }
+ 
+  .relogio div {
+    height: 110px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+  }
+  .relogio span {
+    font-weight: bolder;
+    font-size: 30px;
+ }
+ 
+ .relogio span.tempo {
+    font-size: 10px;
+ }
