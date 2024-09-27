@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://ead.htn.com.br/pluginfile.php/4/core_admin/favicon/64x64/1726067394/logo_menor.ico">
+    <title>AppHTN | VM</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: box-sizing;
+      }
+      body{
+        background: white;
+      }
+      .logo{
+        display:flex;
+        margin: auto;
+        margin-top: 20px;
+      }
+      .user{
+        display: flex;
+        margin: auto;
+        margin-top: 40px;
+      }
+      .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 10px;
+      }
+      .form{
+            text-align: center;
+      }
+      nav{
+        background: #F7F7F7;
+        align-items: center;
+        height: 200px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 40px;
+      
+      }
+     input{
+            display: block;
+            margin: 10px auto;
+            width: 250px;
+            height: 30px;
+            position: relative;
+            transition: 0.5s;
+            color: #ffffff;
+            font-size: 17px;
+      }
+      label{
+            color: #ffffff;
+           margin-right: 200px;
+     }
+     label{
+       color: black;
+       display: flex;
+       margin-left: 100px;
+     }
+    </style>
 
+</head>
+<body>
+         
+         <img class="logo" src="https://raw.githubusercontent.com/app-htn/appvendas/refs/heads/main/logo/LOGO_MENOR.png" alt="logo" width=60 height=70 display=flex>
+         
+          <h1 class="title">Entre com sua conta</h1>
+          
+          <nav>
+          <img class="user"src="https://raw.githubusercontent.com/app-htn/appvendas/refs/heads/main/logo/profile.png"
+          alt="profile" width="60" height="60">
+          
+          <form>
+        <input type="text" placeholder="Usuário" id="login">
+        
+        <input type="password" placeholder="Senha" id="senha">
+        <div class="btn">
+        <input type="submit" onclick="logar(); return false">
+        
+        </form>
+          </nav>
+    
+</body>
+</html>
