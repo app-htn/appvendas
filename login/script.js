@@ -4,7 +4,7 @@ function logar(){
     var senha = document.getElementById('senha').value;
 
     if(login == "vm42" && senha == "vmdl@42"){
-        location.href = "home.html";
+        location.href = "/relatorio/relatorio.html";
    }else{
         alert('Usuario ou senha incorreta')
    }
