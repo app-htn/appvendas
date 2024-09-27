@@ -4,7 +4,7 @@ function logar(){
     var senha = document.getElementById('senha').value;
 
     if(login == "vm42" && senha == "vmdl"){
-        location.href = "/relatorio/relatorio.html";
+        location.href = "https://app-htn.github.io/appvendas/relatorio/relatorio.html";
    }else{
         alert('Usuario ou senha incorreta')
    }
