@@ -8,6 +8,8 @@ body{
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
+background: rgb(233, 233, 233);
+
 }
 
 .container{
@@ -22,6 +24,8 @@ background-attachment: fixed;
     padding: 30px;
     border-radius: 20px;
     border: 1px solid white;
+    min-width: 100%dvh;
+    height: 100%dvh;
 }
 .title{
     font-size: 30px;
@@ -39,6 +43,24 @@ background-attachment: fixed;
     margin-bottom: 20px;
 }
 
+.label-pass input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    outline: 1px solid black;
+    border-radius: 5px;
+    min-width: 10px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+}
+i{
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    color: black;
+}
 .label-float input{
     width: 100%;
     padding: 5px 5px;
@@ -50,12 +72,27 @@ background-attachment: fixed;
     font-size: 16px;
     transition: all .3s ease-out;
 }
+.label-pass{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;  
+}
 
 .label-float{
     position: relative;
     padding-top: 13px;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+.label-pass label{
+    color: rgb(87, 177, 52);
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all;
 }
 
 .label-float label{
@@ -70,7 +107,7 @@ background-attachment: fixed;
 button{
     background: radial-gradient(#3396d7, #2a82bc);
     color: white;
-    padding: 10px 124px;
+    padding: 15px 124px;
     font-weight: bold;
     font-size: 12pt;
     margin-top: 20px;
