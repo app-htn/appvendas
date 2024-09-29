@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --white: #fff;
+    --dark: #000;
+}
 body{
 background-size: cover;
 background-repeat: no-repeat;
@@ -21,7 +25,7 @@ background: rgb(233, 233, 233);
 
 .card{
     background-color: #f7f7f7;
-    padding: 30px;
+    padding: 60px 30px;
     border-radius: 20px;
     border: 1px solid white;
     min-width: 100%dvh;
@@ -30,9 +34,10 @@ background: rgb(233, 233, 233);
 .title{
     font-size: 30px;
     margin-block: 40px;
-    margin-top: -90px;
+    margin-top: -110px;
+    color: black;
 }
-.logo{
+svg{
     display: flex;
     margin: auto;
     margin-top: 20px;
@@ -121,3 +126,31 @@ button{
     display: flex;
     justify-content: center;
 }
+
+#msgError{
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+.fa-moon{
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: -30px;
+    top: -189px;
+    color: black;
+ }
+.fa-solid{
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: -30px;
+    top: -189px;
+    color: black;
+ }
+
+
+
