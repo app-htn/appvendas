@@ -1,6 +1,6 @@
 /*Todos os direitos voltados para Alisson Hiosaki*/
 
-
+/*configuracoes da webpage mobile*/
 @media (max-width: 700px){
  *{
     margin: 0;
@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-
+/*estilo do titulo e background da webpage*/
 .tittl,h1{
     margin: 0;
     align-items: center;
@@ -29,23 +29,20 @@
     color: white;
     transition: 100ms;
 }
-
+/*animações btn*/
 .btn:hover{
   transform: scale(1.0);
   background: greenyellow;
   color: black;
 }
-.a:hover{
-  transform: scale(1.0);
-  color: black;
-}
 
+/*btn layout*/
 .btn{
     font-size: 15px;
     background-color:  transparent;
     backdrop-filter: blur(20px);
     border: 2px solid greenyellow;
-    border-radius: 10px;
+    border-radius: 20px;
     background-size: 5000px;
     align-items: center;
     display: inline-flex;
@@ -58,31 +55,31 @@
     margin-left: 1dvh;
     margin-right: 1dvh;
     margin-top: 30px;
-    min-height: 12vh;  
+    min-height: 10vh;  
     width: 80px;
 }
 
- 
+ /*texto layout*/
 .text,a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 550;
     font-size: auto;
-    cursor: pointer;
+    cursor: move;
     transition: 200ms;
    
 }
 
-
+/*wallpaper mobile*/
 body{
-  background: url(./mobile.png);
+  background: url(./mobile2.png);
   min-height: 100%;  
   width: 100%;
-  background-position: 50% 100px;
-  background-size: 1200px;
+  background-position: center center ;
+  background-size: 900px;
 }
 
-
+/*configurações do relogio flutuante*/
 .body,h5{
     font-family: sans-serif;
     font-size: 40px;
@@ -119,10 +116,12 @@ body{
   .relogio span {
     font-weight: bolder;
     font-size: 50px;
+    margin: 2px;
  }
  
  .relogio span.tempo {
     font-size: 10px;
+    margin: 1px;
  }
     
 }
