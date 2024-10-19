@@ -1,0 +1,111 @@
+/*Todos os direitos voltados para Alisson Hiosaki*/
+
+/*configuracoes da webpage desktop resposiva*/
+@media (max-width: 1500px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /*titulo da pagina*/
+    .tittl,h1{
+        margin: 0;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family:sans-serif;
+        font-size: 60px;
+        backdrop-filter: blur(10px);
+        border-end-end-radius:30px;
+        border-end-start-radius: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-block-end: 50px;
+        border-right: 4px solid #adff2f;
+        border-left: 4px solid #adff2f;
+        border-block-end: 4px solid #adff2f;
+        color: white;
+    }
+    
+    .btn{
+        font-size: 25px;
+        background-color:  transparent;
+        backdrop-filter: blur(20px);
+        border: 3px solid greenyellow;
+        border-radius: 20px;
+        align-items: center;
+        display: inline-flex;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all linear 200ms;
+    }
+    .btn:hover{
+        transform: scale(1.2);
+        box-shadow: 0 0 22px rgba(0, 0, 0, 0.2);
+    }
+     
+    .text,a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: 550;
+        font-size: auto;
+        cursor: pointer;
+       
+    }
+    
+    
+    body{
+      background: url(./retrato.png);
+      min-height: 100%;  
+      width: 100%;
+      background-position: center;
+      background-size: 100%;
+    }
+    
+    ___Relogio___
+    .body,h5{
+        font-family: sans-serif;
+        font-size: 50px;
+        justify-content:center;
+        justify-items: center;
+        align-items: center;
+        display: flex;
+        color: #fff;
+        border-left: 4px solid #adff2f;
+        border-right: 4px solid #adff2f;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-top: 4px solid #adff2f;
+        border-start-start-radius: 30px;
+        border-start-end-radius: 30px;
+       }
+     
+      .relogio div {
+        height: 110px;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background: rgba(5, 5, 5, .9);
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+        border-radius: 7px;
+        letter-spacing: 3px;
+      }
+      .relogio span {
+        font-weight: bolder;
+        font-size: 50px;
+     }
+     
+     .relogio span.tempo {
+        font-size: 10px;
+     }
+}

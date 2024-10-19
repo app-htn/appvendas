@@ -1,3 +1,6 @@
+/*Todos os direitos voltados para Alisson Hiosaki*/
+
+/*configuracoes da webpage desktop*/
 *{
     margin: 0;
     padding: 0;
@@ -15,8 +18,8 @@
     backdrop-filter: blur(10px);
     border-end-end-radius:30px;
     border-end-start-radius: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-block-end: 50px;
     border-right: 4px solid #adff2f;
     border-left: 4px solid #adff2f;
@@ -47,7 +50,7 @@
     transition: all linear 200ms;
 }
 .btn:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     box-shadow: 0 0 22px rgba(0, 0, 0, 0.2);
 }
  
@@ -60,6 +63,19 @@
    
 }
 
+/*barra de navegação do navegador*/
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background:#333;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #AEEA00;
+    border-radius: 20px;
+  }
 
 body{
   background: url(./desktop.png);
@@ -80,8 +96,8 @@ ___Relogio___
     color: #fff;
     border-left: 4px solid #adff2f;
     border-right: 4px solid #adff2f;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
     border-top: 4px solid #adff2f;
     border-start-start-radius: 30px;
     border-start-end-radius: 30px;
