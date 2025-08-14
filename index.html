@@ -1,131 +1,39 @@
-<!--ALISSON HIOSAKI-->
-<!-- 13 de setembro de 2024-->
-
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--css desktop-->
-    <link rel="stylesheet" href="./css/desktop/desktop.css">
-
-    <!--css desktop resposivo-->
-    <link rel="stylesheet" href="./css/desktop/resposivo.css">
-
-    <!--css desktop resposivo retrato-->
-    <link rel="stylesheet" href="./css/desktop/retrato.css">
-
-    <!--css mobile-->
-    <link rel="stylesheet" href="./css/mobile/mobile.css">
-</style>
-
-    <title>AppCodigo | Vendas</title>
-    <link rel="shortcut icon" href="./logo/logo_menor.ico">
+<html lang="pt-Br">
     
-     <img id="banner" class="img">
-     <a href="./bg1.jpg"></a>
-     <a href="./bg2.png"></a>
-
-</head>
-    <tbody><!--config do relogio-->
-       <h5>
-            <div class="relogio"></div>
-                <div>
-                    <span id="horas">00</span>
-                    <span class="tempo"> :</span>
-                </div>
-        
-                <div>
-                    <span id="minutos"> 00</span>
-                    <span class="tempo"> :</span>
-                </div>
-        
-                <div>
-                    <span id="segundos">00</span>
-                    <span class="tempo"></span>
-                </div>
-            </div>
-        </h5>
-            <script src="script.js"></script>
-    </tbody><!--config do relogio-->
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://intranet-hiosaki.com/assets/css/iframe-mobile.css" type="text/css" media="all" />
+        <!-- mobile -->
+        <link rel="stylesheet" href="https://intranet-hiosaki.com/assets/css/iframe-global.css" type="text/css" media="all" />
+        <!-- iframe -->
+        <script src="https://intranet-hiosaki.com/assets/js/loading.js"></script>
+        <link rel="stylesheet" href="https://intranet-hiosaki.com/assets/css/loading.css" />
+        <link rel="shortcut icon" href="https://intranet-hiosaki.com/assets/favicon/docker.png" type="image/x-icon" />
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+        <title>SRV | Hiosaki</title>
+    </head>
     
-<body> <!--webpage appvendas-->
+    <body>
+        <iframe src="https://intranet-hiosaki.com/AppCodigo" frameborder="0"></iframe>
+        <!-- Tela de Loading -->
+        <div id="loading-screen" class="loading-screen">
+            <div class="spinner"></div>
+            <p class="p1">Agurade</p>
+            <p class="p2">A Inicialização</p>
+            <p class="p3">Do Sistema</p>
+            <p class="p4">Server Blume</p>
         </div>
-        <div id="titulo" class="title">
-            <h1 id="t1">Codigo de Vendas</h1>
-        </div>
-    </div>
- </body>
+        <script>
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loading-screen').style.display = 'none';
+            }, 2000); 
+        });
+        </script>
+    </body>
 
- <body>
-     <header>
-        <tbody>
-      <div class="container">
-
-        <button class="btn">
-            <a href="./etiquetas/Camila.rpf">Camila</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Eduarda.rpf">Eduarda</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Elis.rpf">Elis</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Ester.rpf">Ester</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Jaciele.rpf">Jaciele</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Leonardo.rpf">Leonardo</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Nayriane.rpf">Nayriane</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Rhyan.rpf">Rhyan</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Samira.rpf">Samira</a>
-        </button>
-
-        <button class="btn">
-            <a href="./etiquetas/Warley.rpf">Warley</a>
-        </button>
-        <!--diretorios do vm-->
-        <button class="btn">
-            <a href="./etiquetas/vm/MESA.rpf">Mesa</a>
-        </button>
-        
-        <button class="btn">
-            <a href="./etiquetas/vm/GESTOR.rpf">Gestor</a>
-        </button>
-        
-        <button class="btn">
-            <a href="./etiquetas/vm/RESPIRO.rpf">Respiro</a>
-        </button>
-        
-        <button class="btn">
-            <a href="./etiquetas/vm/EXPOSITOR.rpf">EXP/EXP</a>
-        </button>
-
-    </tbody>
-
-    </div>
-</header>
-
-</body>
 </html>
-
-<!--ALISSON HIOSAKI-->
-<!-- 13 de setembro de 2024-->
